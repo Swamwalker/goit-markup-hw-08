@@ -1,0 +1,13 @@
+.conteiner{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 1200px;
+     margin-right: auto;
+     margin-left: auto;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ .row-conteiner{
+    flex-direction: row;
+ }
