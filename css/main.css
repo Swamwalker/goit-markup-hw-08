@@ -183,7 +183,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1200px;
+  width: 450px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -197,6 +197,11 @@ img {
           flex-direction: row;
 }
 
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1200px;
+  }
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -225,7 +230,7 @@ img {
 }
 
 .hero-box {
-  width: 696px;
+  max-width: 696px;
   margin-left: auto;
   margin-right: auto;
 }
