@@ -491,8 +491,8 @@ img {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  max-width: 200px;
-  max-height: 50px;
+  width: 200px;
+  height: 50px;
   border: 0em;
   border-radius: 4px;
   color: #FFFFFF;
@@ -707,8 +707,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 170px;
-  min-height: 92px;
+  max-width: 226px;
+  height: 92px;
   fill: #AFB1B8;
   background-color: #FFFFFF;
   border: 1px solid #AFB1B8;
@@ -1332,7 +1332,7 @@ textarea::placeholder {
   .checkbox__title {
     font-size: smaller;
     font-weight: 100;
-    line-height: 0.02em;
+    line-height: 0.2;
   }
 }
 @media screen and (min-width: 1200px) {
