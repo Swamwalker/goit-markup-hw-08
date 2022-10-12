@@ -107,15 +107,21 @@
     font-size: 14px;
     line-height: 1.16;
     padding: 0px;
-    
+    @media screen and(max-width: 479px) {
+        font-size: smaller;
+        font-weight: 100;
+        line-height: 00.02em;
+    }
     color: $secondary-text-color;
      @media screen and(min-width: 1200px) {
         line-height: 1.7;
      }
  }
  .checkbox__link{
+    text-align: center;
      color: $accent-color;
      text-decoration:underline;
+     white-space: nowrap;
  }
  
  
