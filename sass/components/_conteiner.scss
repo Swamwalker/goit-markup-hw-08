@@ -1,27 +1,11 @@
 .conteiner {
      align-items: center;
-     min-width: 480px;
+     max-width: 100%;
      margin-right: auto;
      margin-left: auto;
      padding-left: 15px;
      padding-right: 15px;
+     @media screen and(min-width: 1200px) {
+        max-width: 1200px;
+     }
  }
-
-
-//  @media screen and (min-width: 1200px){
-//    .conteiner{
-//       width: 1200px;
-//       flex-direction: column;
-//    }
-//    .row-conteiner{
-//       flex-direction: row;
-//    }
-//  }
-//  @media screen and (min-width: 768px){
-//    .conteiner{
-//       display: flex;
-//       width: 768px;
-
-//    }
-   
-//  }

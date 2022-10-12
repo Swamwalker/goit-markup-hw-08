@@ -48,12 +48,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="follow-links-list">
-                    <li class="follow-links-list__item" lang="en">Instagram</li>
-                    <li class="follow-links-list__item" lang="en">Twitter</li>
-                    <li class="follow-links-list__item" lang="en">Facebook</li>
-                    <li class="follow-links-list__item" lang="en">LinkedIn</li>
-                </ul> 
+
             </div> 
             <button
             class="menu-toggle js-open-menu"
@@ -272,40 +267,42 @@
         </div>
     </footer>
 
-    <div class="conteiner menu-container js-menu-container" id="mobile-menu">
+    <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
             <svg class="menu-toggle__icon" width="24" height="24">
                 <use href="./imges/icons.svg#Vector"></use>
             </svg>
           </button>
         <div class="mobile-menu">
-            <nav class="nav-menu">
-                <ul class="navigation">
-                    <li class="navigation__item"><a href="./index.html" class="navigation__link navigation__link--current">Студія</a></li>
-                    <li class="navigation__item"><a href="./portfolio.html" class="navigation__link">Портфоліо</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Контакти</a></li>
+                <nav>
+                    <ul class="mob-navigation">
+                        <li class="mob-navigation__item"><a href="./index.html" class="mob-navigation__link mob-navigation__link">Студія</a></li>
+                        <li class="mob-navigation__item"><a href="./portfolio.html" class="mob-navigation__link">Портфоліо</a></li>
+                        <li class="mob-navigation__item"><a href="#" class="mob-navigation__link">Контакти</a></li>
+                    </ul>
+                </nav>
+            <div class="mob-link-box">
+                    <ul class="mob-contacts">
+                        <li class="mob-contacts__item">  
+                            <a href="tel:+380961111111" class="mob-contacts__link--first">
+                                +38 096 111 11 11
+                            </a>
+                        </li>
+                        <li class="mob-contacts__item">
+                            <a href="mailto:info@devstudio.com" class="mob-contacts__link" lang="en">
+                                info@devstudio.com
+                            </a>
+                        </li>
+                    </ul>
+                <ul class="follow-links-list">
+                    <li class="follow-links-list__item" lang="en"><a href="#" class="follow-links-list__link">Instagram</a></li>
+                    <li class="follow-links-list__item" lang="en"><a href="#" class="follow-links-list__link">Twitter</a></li>
+                    <li class="follow-links-list__item" lang="en"><a href="#" class="follow-links-list__link">Facebook</a></li>
+                    <li class="follow-links-list__item" lang="en"><a href="#" class="follow-links-list__link">LinkedIn</a></li>
                 </ul>
-            </nav>
-            <ul class="contacts">
-                <li class="contacts__item">  
-                    <a href="mailto:info@devstudio.com" class="contacts__link" lang="en">
-                        info@devstudio.com
-                    </a>
-                </li>
-                <li class="contacts__item">
-                    <a href="tel:+380961111111" class="contacts__link">
-                        096 111 11 11
-                    </a>
-                </li>
-            </ul>
-            <ul class="follow-links-list">
-                <li class="follow-links-list__item" lang="en">Instagram</li>
-                <li class="follow-links-list__item" lang="en">Twitter</li>
-                <li class="follow-links-list__item" lang="en">Facebook</li>
-                <li class="follow-links-list__item" lang="en">LinkedIn</li>
-            </ul> 
+            </div>  
         </div>
-    </div>
+</div>
     <script defer src="js/menu-mobile.js"></script>
 </body>
 

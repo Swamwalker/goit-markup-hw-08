@@ -1,11 +1,22 @@
-// .section{
-//      padding-top: 94px;
-//      padding-bottom: 94px;
-//      &--no-padding-top{
-//         padding-top: 0;
-//      }
-//      &--different-background{
-//         background-color: $secondary-background-color;
-//      }
-//  }
- 
+.section{
+     padding-top: 60px;
+     padding-bottom: 60px;
+     &--different-background{
+          background-color: $secondary-background-color;
+     }
+     &--no-padding-top{
+          display: none;
+     }
+}
+@media screen and (min-width: 1200px){
+     .section{
+          padding-top: 94px;
+          padding-bottom: 94px;
+
+          &--no-padding-top {
+               display:contents;
+               padding-top: 0;
+          }
+               
+     }
+}
