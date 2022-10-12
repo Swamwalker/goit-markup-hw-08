@@ -11,22 +11,25 @@
      
      padding-right: 24px;
      padding-left: 24px;
-     padding-top: 63px;
-     padding-bottom: 63px;
+     padding-top: 77px;
+     padding-bottom: 77px;
      background-color: rgba(33, 150, 243, 0.9);
      .card-list__link:focus &,
      .card-list__link:hover &{
          transform: translateY(0);
-     }
-     
  }
+}
 
- .card-overlay__content{
- 
-     font-family: 'Roboto';
-     font-style: normal;
+.card-overlay__content {
      font-weight: 400;
      font-size: 18px;
      line-height: 1.55;
      color: $background-color;
- }
+}
+
+@media screen and(min-width: 1200px) {
+     .card-overlay{
+          padding-top: 63px;
+          padding-bottom: 63px;
+     }
+}

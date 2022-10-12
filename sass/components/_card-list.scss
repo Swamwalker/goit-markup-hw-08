@@ -1,10 +1,9 @@
-// .card-list{
-//      display: flex;
-//      flex-wrap: wrap;
-//      gap: 30px;
-//      justify-content: center;
-//  }
- .card-list__link{
+.card-list__item{
+     margin-bottom: 30px;
+}
+
+
+.card-list__link{
      display: block;
      cursor: default;
      &:focus,
@@ -13,7 +12,7 @@
       0px 4px 4px rgba(0, 0, 0, 0.06),
        1px 4px 6px rgba(0, 0, 0, 0.16);
  }
-     }
+}
  .card-head{
      padding-left: 24px;
      padding-right: 24px;
@@ -45,4 +44,13 @@
      position: relative;
      overflow: hidden;
      
+ }
+
+ @media screen and(min-width: 1200px) {
+     .card-list{
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+          justify-content: center;
+      }
  }
