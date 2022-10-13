@@ -434,7 +434,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 450px;
+  width: 480px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -475,7 +475,7 @@ img {
 .hero {
   background-color: #C4C4C4;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1600px;
   height: 100%;
   padding-top: 118px;
   padding-bottom: 118px;
@@ -536,7 +536,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -1220,7 +1219,9 @@ img {
 }
 .card-overlay {
   position: absolute;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 100%;
   top: 0;
@@ -1243,12 +1244,18 @@ img {
 }
 
 .card-overlay__content {
+  max-width: 100%;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 768px) {
+  .card-overlay {
+    padding-top: 49px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .card-overlay {
     padding-top: 63px;
