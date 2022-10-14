@@ -163,16 +163,28 @@
             <h2 class="title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-list__item">
-                    <img srcset="./imges/igor/igor-270.jpg 270w,
-                    ./imges/igor/igor-354.jpg 354w,
-                    ./imges/igor/igor-450.jpg 450w,
-                    ./imges/igor/igor-540.jpg 540w,
-                    ./imges/igor/igor-708.jpg 708w,
-                    ./imges/igor/igor-900.jpg 900w
-                    "
-                    src="./imges/igor/igor-450.jpg"
-                    sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw,(min-width: 450px) 100vw" 
+                    <picture>
+                        <source srcset="./imges/igor/igor-270.jpg 270w,
+                            ./imges/igor/igor-540.jpg 540w"
+                            media="(min-width: 1200px)"
+                            sizes="(min-width: 1200px) 270px, 33vw"
+                            />
+
+                            <source srcset="./imges/igor/igor-354.jpg 354w,
+                            ./imges/igor/igor-708.jpg 708w"
+                            media="(min-width: 768px)"
+                            sizes="(min-width: 768px) 354px, 50vw"
+                            />
+
+                            <source srcset="./imges/igor/igor-450.jpg 450w,
+                            ./imges/igor/igor-900.jpg 900w"
+                            media="(min-width: 480px)"
+                            sizes="(min-width: 480px) 450px ,100vw"
+                            />
+                    <img
+                    src="./imges/igor/igor-450.jpg" 
                     alt="фото Ігоря Дем'яненко" class="photo">
+                    </picture>
                     <div class="content-box">
                         <h3 class="content-box__title">Ігор Дем'яненко</h3>
                         <p lang="en" class="content content-box__content">Product Designer</p>
@@ -207,16 +219,26 @@
                     </div>
                 </li>
                 <li class="team-list__item">
-                    <img srcset="./imges/olga/olga-270.jpg 270w,
-                    ./imges/olga/olga-354.jpg 354w,
-                    ./imges/olga/olga-450.jpg 450w,
-                    ./imges/olga/olga-540.jpg 540w,
-                    ./imges/olga/olga-708.jpg 708w,
-                    ./imges/olga/olga-900.jpg 900w
-                    "
-                    src="./imges/olga/olga-450.jpg"
-                    sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw,(min-width: 450px) 100vw" 
-                    alt="фото Ольги Рєпіної" class="photo">
+                <picture>
+                    <source srcset="./imges/olga/olga-270.jpg 270w,
+                        ./imges/olga/olga-540.jpg 540w"
+                        media="(min-width: 1200px)"
+                        sizes="(min-width: 1200px) 270px, 33vw"
+                        />
+                        <source srcset="./imges/olga/olga-354.jpg 354w,
+                        ./imges/olga/olga-708.jpg 708w"
+                        media="(min-width: 768px)"
+                        sizes="(min-width: 768px) 354px, 50vw"
+                        />
+
+                        <source srcset="
+                        ./imges/olga/olga-450.jpg 450w,
+                        ./imges/olga/olga-900.jpg 900w"
+                        media="(min-width: 480px)"
+                        sizes="(min-width: 480px) 450px ,100vw"/>
+                <img src="./imges/olga/olga-450.jpg" 
+                alt="фото Ольги Рєпіної" class="photo">
+                </picture>
                     <div class="content-box">
                         <h3 class="content-box__title">Ольга Рєпіна</h3>
                         <p lang="en" class="content content-box__content">Frontend Developer</p>
@@ -251,16 +273,29 @@
                         </div>
                 </li>
                 <li class="team-list__item">
-                    <img srcset="./imges/nikolay/nikolay-270.jpg 270w,
-                    ./imges/nikolay/nikolay-354.jpg 354w,
-                    ./imges/nikolay/nikolay-450.jpg 450w,
-                    ./imges/nikolay/nikolay-540.jpg 540w,
-                    ./imges/nikolay/nikolay-708.jpg 708w,
-                    ./imges/nikolay/nikolay-900.jpg 900w
-                    "
-                    src="./imges/nikolay/nikolay-450.jpg"
-                    sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw,(min-width: 450px) 100vw"
+                    <picture>
+                        <source srcset="./imges/nikolay/nikolay-270.jpg 270w,
+                            ./imges/nikolay/nikolay-540.jpg 540w"
+                            media="(min-width: 1200px)"
+                            sizes="(min-width: 1200px) 270px, 33vw"
+                            />
+    
+                            <source srcset="./imges/nikolay/nikolay-354.jpg 354w,
+                            ./imges/nikolay/nikolay-708.jpg 708w"
+                            media="(min-width: 768px)"
+                            sizes="(min-width: 768px) 354px, 50vw"
+                            />
+    
+                            <source srcset="./imges/nikolay/nikolay-450.jpg 450w,
+                            ./imges/nikolay/nikolay-900.jpg 900w"
+                            media="(min-width: 480px)"
+                            sizes="(min-width: 480px) 450px ,100vw"
+                            />
+                    <img
+                    src="./imges/nikolay/nikolay-450.jpg" 
                     alt="фото Миколи Тарасова" class="photo">
+                    </picture>
+                    
                     <div class="content-box">
                     <h3 class="content-box__title">Микола Тарасов</h3>
                     <p lang="en" class="content-box__content">Marketing</p>
@@ -295,16 +330,29 @@
                     </div>
                 </li>
                 <li class="team-list__item">
-                    <img srcset="./imges/mihail/mihail-270.jpg 270w,
-                                ./imges/mihail/mihail-354.jpg 354w,
-                                ./imges/mihail/mihail-450.jpg 450w,
-                                ./imges/mihail/mihail-540.jpg 540w,
-                                ./imges/mihail/mihail-708.jpg 708w,
-                                ./imges/mihail/mihail-900.jpg 900w
-                                "
-                                src="./imges/mihail/mihail-450.jpg"
-                                sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw,(min-width: 450px) 100vw"
-                                alt="фото Михайла Єрмакова" class="photo">
+                    <picture>
+                        <source srcset="./imges/mihail/mihail-270.jpg 270w,
+                            ./imges/mihail/mihail-540.jpg 540w"
+                            media="(min-width: 1200px)"
+                            sizes="(min-width: 1200px) 270px, 33vw"
+                            />
+    
+                            <source srcset="./imges/mihail/mihail-354.jpg 354w,
+                            ./imges/mihail/mihail-708.jpg 708w"
+                            media="(min-width: 768px)"
+                            sizes="(min-width: 768px) 354px, 50vw"
+                            />
+    
+                            <source srcset="./imges/mihail/mihail-450.jpg 450w,
+                            ./imges/mihail/mihail-900.jpg 900w"
+                            media="(min-width: 480px)"
+                            sizes="(min-width: 480px) 450px ,100vw"
+                            />
+                    <img
+                    src="./imges/mihail/mihail-450.jpg" 
+                    alt="фото Михайла Єрмакова" class="photo">
+                    </picture>
+                                
                     <div class="content-box">
                     <h3 class="content-box__title">Михайло Єрмаков</h3>
                     <p lang="en" class="content content-box__content">UI Designer</p>
