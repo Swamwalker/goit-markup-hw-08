@@ -12,9 +12,10 @@
   
 .address-list{
      text-align: center;
-     margin-bottom: 60px;
 }
-
+.address-box{
+    margin-bottom: 60px;
+}
  .address-list__item:not(:last-child){
      margin-bottom: 8px;
  }
@@ -92,9 +93,8 @@
  .subscribe-form{
      display: flex;
      flex-direction: column;
-     min-width: 450px;
      align-items: center;
-     
+     width: 100%;
  }
  .subscribe-form__title{
      font-weight: 700;
@@ -152,8 +152,27 @@
      margin-left: 10px;
  }
 
+ @media screen and(min-width: 768px) {
+    .footer-tablet-box{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+    .shell{
+        max-width: 450px;
+    }
+    .social-linkbox{
+        margin-bottom: 0;
+    }
+    .address-box{
+        margin-bottom: 0;
+    }
+ }
 
 @media screen and(min-width: 1200px) {
+    .footer-tablet-box{
+        margin-bottom: 0;
+    }
     .footer__logo{
         justify-content: start;
     }
@@ -167,19 +186,22 @@
     align-items: start;
    }
     .subscribe-form{
-        align-items: end;
+        align-items: flex-end;
         flex-direction: row;
+        justify-content: end;
     }
     .subscribe-form__title{
         text-align: left;
     }
     .bottom{
         display: flex;
-        align-items: baseline;
+        align-items:flex-start;
         
     }
     .address-box{
         flex-grow: 1;
+        margin-right: 70px;
+        margin-bottom: 0;
     }
     .shell{
         width: 357px;

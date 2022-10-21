@@ -1,13 +1,14 @@
-.card-list__item{
+.card-list__item:not(:last-child){
      margin-bottom: 30px;     
-     border-bottom: 1px solid #EEEEEE;
-     border-left: 1px solid #EEEEEE;
-     border-right: 1px solid #EEEEEE;
+
 }
 
 
 .card-list__link{
-     display: block;
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     
      cursor: default;
      &:focus,
      &:hover{
@@ -21,6 +22,10 @@
      padding-right: 24px;
      padding-bottom: 20px;
      padding-top: 20px;
+     flex-grow: 1;
+     border-bottom: 1px solid #EEEEEE;
+     border-left: 1px solid #EEEEEE;
+     border-right: 1px solid #EEEEEE;
 
  }
  
@@ -51,6 +56,10 @@
           flex-basis: calc((100% - 30px) / 2);
           margin-bottom: 0px;
      }
+     .card-list__item:not(:last-child){
+        margin-bottom: 0px;     
+   
+   }
      .card-list{
           display: flex;
           flex-wrap: wrap;
