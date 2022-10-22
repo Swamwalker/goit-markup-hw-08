@@ -97,13 +97,13 @@
 }
 
  .checkbox__title{
-
-    
+    position: relative;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.16;
-    padding: 0px;
+    padding-left: 18px;
     color: $secondary-text-color;
+
      @media screen and(min-width: 1200px) {
         line-height: 1.7;
      }
@@ -115,10 +115,10 @@
  
  
  .checkbox__icon{
-
+    position: absolute;
+    left: -2px;
     display: flex;
 
-    margin-right: 8px;
     width: 16px;
     height: 15px;
     background-image: url(../imges/checkbox.svg);

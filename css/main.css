@@ -1365,6 +1365,7 @@ img {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   max-width: 93vw;
+  max-height: 93vh;
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1554,10 +1555,11 @@ textarea::placeholder {
 }
 
 .checkbox__title {
+  position: relative;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.16;
-  padding: 0px;
+  padding-left: 18px;
   color: #757575;
 }
 @media screen and (min-width: 1200px) {
@@ -1572,10 +1574,11 @@ textarea::placeholder {
 }
 
 .checkbox__icon {
+  position: absolute;
+  left: -2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 8px;
   width: 16px;
   height: 15px;
   background-image: url(../imges/checkbox.svg);
